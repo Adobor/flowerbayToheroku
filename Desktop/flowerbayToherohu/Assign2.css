@@ -1,0 +1,185 @@
+
+*{
+   padding: 0;
+   margin: 0;
+}
+.main-section{
+overflow:hidden;
+background-color:green;
+}
+.headernav{
+   width:100% ;
+   margin: auto;
+   padding: 30px;
+   background-image: url(./imgs/red-rose-flower-2079991.png);
+   color: white;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.top-header{
+   width:60% ;
+   margin: auto;
+   text-align: center;
+   height: 40px;
+   justify-content: center;
+   padding:15px;
+}
+ul{
+   display: flex;
+   justify-content:center;
+   gap:7%;
+}
+a{
+   color: white;
+   text-decoration: none;
+  }
+li{
+   list-style: none; 
+   display: flex;
+}
+/*  dashboar */
+.boardimg .freeside{
+   width:35% ;
+   padding-top:23%;
+   text-align:center;
+   line-height: 40px;
+}
+.boardimg button{
+   background-color:brown;
+   color:white;
+   border-radius: 5px;
+}
+   .boardimg{
+      width: 80%;
+      margin: auto;
+      height: 450px;
+   }
+.boardimg img{
+   width: 25%;
+   float:right;
+   height: 400px;
+   display:inline;
+   margin-bottom: 30px ;
+   margin: 2%;
+   box-shadow:inset;
+   opacity: 100%;
+}
+.main-card{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 25px;
+   width: 100%;
+   height: 450px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   padding: 3px 15px 3px 15px;
+   margin-top: 5px;
+
+}
+.card-body{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 25px;
+   width: 100%;
+   height: 450px;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   justify-items: center;
+   padding: 3px 15px 3px 15px;
+   margin-top: 5px;
+
+} 
+.card-container{
+   text-align: center; 
+   width:380px ;
+   box-shadow: inset;
+ }
+ .card-container img{
+    width: 380px;
+    height: 330px;
+ }
+ .title{
+    background-color:rgb(0, 139, 35);
+    /* border: 10px; */
+    height: 105px;
+ }
+ span img{
+  display: flex;
+  position:relative; 
+  margin-left: 80px;
+  width: 30px;
+ }
+.footer{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border-top: 1px;
+background-color:rgb(0, 139, 35);
+color: black;
+width: 80%;
+margin: auto;
+}
+.footbody{
+   padding: 20px;
+   border: 20px solid green;
+}
+
+   h2{
+      font-size: 30px;
+      color:burlywood;
+   }
+
+button{
+width: 259px;
+padding: 7px;
+border-color: blue;
+box-shadow: inset;
+color:white;
+font-size: 20px;
+background-color:burlywood;
+}
+.arcticlefooter .footplus{
+  width: 30%;
+  height: 230px;
+  padding-left: 16px;
+  padding-right: 50%;
+ }
+.arcticlefooter img{
+   border-radius: 10%;
+   width: 10%;
+   height: 100px; 
+   margin: auto;   
+}
+.arcticlefooter p{
+padding: 23px 0px;
+line-height: 25px;
+}
+.arcticlefooter{
+border-top: 20px;
+box-shadow: darkolivegreen;
+width: 80%;
+margin: auto;
+display: flex;
+}
+h1 h3{
+   padding:20px  ;
+   height: 40px;
+
+}
+.footbody p{
+   padding: 20px ;
+   height: 90px;
+   color: white;
+   font-size: 20px;
+   font-family: sans;
+}
+
+@media only screen and (max-width: 600px) {
+   [class*="col-"] {
+      width: 100%;    
+      display: flex;
+      flex-direction: column;
+   }
+ }
